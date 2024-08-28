@@ -1,20 +1,26 @@
 public class Solution {
    public int majorityElement(int[] nums) {
-        HashMap<Integer, Integer> countMap = new HashMap<>();
-        int majorityCount = nums.length / 2;
+       HashMap<Integer, Integer> map = new HashMap<>(); 
+       int n = nums.length;
 
-        // Iterate through the array and count frequencies
-        for (int num : nums) {
-            countMap.put(num, countMap.getOrDefault(num, 0) + 1);
+       //frequencies of each element
+       for (int i = 0; i < n; i++) {
+           if(map.containsKey(nums[i])){
+               map.put(nums[i], map.get(nums[i])+1);
+           }
+           else{
+              map.put(nums[i], 1);
+           }
+       }
 
-            // Check if this element is the majority element
-            if (countMap.get(num) > majorityCount) {
-                return num;
-            }
-        }
+       // Find the majority element
+       for (int key : map.keySet()) {
+           if (map.get(key) > n / 2) {
+               return key; // Return the key if it's the majority element
+           }
+       }
 
-        // The problem guarantees that there will always be a majority element,
-        // so this return statement should never be reached.
-        return -1; 
-    } 
+       // The problem guarantees that there will always be a majority element, so this return should never be reached
+       return -1;
+   }
 }
