@@ -9,11 +9,14 @@
  * }
  */
 class Solution {
-    public ListNode reverseList(ListNode head) {
+    public ListNode reverseList(ListNode node) {
         ListNode prev = null;  
-        ListNode current = head;
-    
-        
+        ListNode current = node;
+
+        //edge case
+        if(node == null){
+            return node;
+        }
         while(current != null) { 
             ListNode next = current.next; 
             current.next = prev;
