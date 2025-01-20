@@ -1,24 +1,27 @@
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
+ * int val;
+ * ListNode next;
+ * ListNode(int x) {
+ * val = x;
+ * next = null;
+ * }
  * }
  */
 public class Solution {
-    public ListNode getIntersectionNode(ListNode head1, ListNode head2) {
-        ListNode d1 = head1;
-        ListNode d2 = head2;
+    public ListNode getIntersectionNode(ListNode firstHead, ListNode secondHead) {
+        if (firstHead == null || secondHead == null)
+            return null;
 
-        while (d1 != d2) {
-            d1 = d1 == null ? head2 : d1.next;
-            d2 = d2 == null ? head1 : d2.next;
+        ListNode temp1 = firstHead;
+        ListNode temp2 = secondHead;
+
+        while (temp1 != temp2) {
+            temp1 = (temp1 == null) ? secondHead : temp1.next;
+            temp2 = (temp2 == null) ? firstHead : temp2.next;
         }
 
-        return d1;
+        return temp1;
     }
 }
