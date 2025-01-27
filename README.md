@@ -47,4 +47,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Anshu10101/LeetCode/tree/master/0002-add-two-numbers) |
+| [3704-count-partitions-with-even-sum-difference](https://github.com/Anshu10101/LeetCode/tree/master/3704-count-partitions-with-even-sum-difference) |
+## Array
+|  |
+| ------- |
+| [3704-count-partitions-with-even-sum-difference](https://github.com/Anshu10101/LeetCode/tree/master/3704-count-partitions-with-even-sum-difference) |
+## Prefix Sum
+|  |
+| ------- |
+| [3704-count-partitions-with-even-sum-difference](https://github.com/Anshu10101/LeetCode/tree/master/3704-count-partitions-with-even-sum-difference) |
 <!---LeetCode Topics End-->
