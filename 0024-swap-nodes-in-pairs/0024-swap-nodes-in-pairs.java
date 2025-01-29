@@ -10,15 +10,15 @@
  */
 class Solution {
     public ListNode swapPairs(ListNode head) {
-        if (head == null || head.next == null) {
-            return head; // If there are less than 2 nodes, return as it is.
+        if(head == null || head.next == null){
+            return head;
         }
 
-        ListNode dummyNode = new ListNode(0);
+        ListNode dummyNode = new ListNode();
         ListNode prevNode = dummyNode;
         ListNode currNode = head;
 
-        while (currNode != null && currNode.next != null) {
+        while(currNode != null && currNode.next != null){
             prevNode.next = currNode.next;
             currNode.next = prevNode.next.next;
             prevNode.next.next = currNode;
@@ -26,7 +26,6 @@ class Solution {
             prevNode = currNode;
             currNode = currNode.next;
         }
-
         return dummyNode.next;
     }
 }
