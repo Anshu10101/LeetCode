@@ -6,19 +6,17 @@ class Solution {
         for (int k = 0; k < s1.length(); k++) {
             if (s1.charAt(k) != s2.charAt(k)) {
                 cnt++;
-                if (i == -1)
+                if (i == -1) // swapping the characters if counter increases
                     i = k;
                 else if (j == -1)
                     j = k;
             }
         }
-
         if (cnt == 0)
             return true;
         else if (cnt == 2 && s1.charAt(i) == s2.charAt(j) && s1.charAt(j) == s2.charAt(i)) {
-            return true;
-        }
-
+            return true; //after swapping when counter increased by 1
+        } 
         return false;
     }
 }
