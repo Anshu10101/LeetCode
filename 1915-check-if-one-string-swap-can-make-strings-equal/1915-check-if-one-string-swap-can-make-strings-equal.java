@@ -1,20 +1,22 @@
 class Solution {
     public boolean areAlmostEqual(String s1, String s2) {
-        if (s1.equals(s2)) return true; // Already equal
-
-        char[] arr1 = s1.toCharArray();
-        char[] arr2 = s2.toCharArray();
-        Arrays.sort(arr1);
-        Arrays.sort(arr2);
-
-        // If sorted arrays are not equal, return false
-        if (!Arrays.equals(arr1, arr2)) return false;
-
-        // Count mismatches
+        int i = -1, j = -1;
         int cnt = 0;
-        for (int i = 0; i < s1.length(); i++) {
-            if (s1.charAt(i) != s2.charAt(i)) cnt++;
+
+        for (int k = 0; k < s1.length(); k++) {
+            if (s1.charAt(k) != s2.charAt(k)) {
+                cnt++;
+                if (i == -1) // swapping the characters if counter increases
+                    i = k;
+                else if (j == -1)
+                    j = k;
+            }
         }
-        return cnt <= 2; // At most one swap (2 mismatches)
+        if (cnt == 0)
+            return true;
+        else if (cnt == 2 && s1.charAt(i) == s2.charAt(j) && s1.charAt(j) == s2.charAt(i)) {
+            return true; //after swapping when counter increased by 1
+        } 
+        return false;
     }
 }
