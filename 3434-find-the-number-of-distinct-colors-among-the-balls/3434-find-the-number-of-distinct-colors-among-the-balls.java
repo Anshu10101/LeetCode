@@ -1,25 +1,33 @@
+import java.util.*;
+
 class Solution {
     public int[] queryResults(int limit, int[][] queries) {
-        Map<Integer, Integer> ball = new HashMap<>(), color = new HashMap<>();
-        int n = queries.length, distinct = 0;
-        int[] ans = new int[n];
-        for (int i = 0; i < n; i++) {
-            int pos = queries[i][0], c = queries[i][1];
-            if (ball.containsKey(pos)) {
-                int cnt = color.get(ball.get(pos)) - 1;
-                if (cnt == 0) {
-                    distinct--;
-                    color.remove(ball.get(pos)); // Only Additional Change
-                } else
-                    color.put(ball.get(pos), cnt);
+        int n = queries.length;
+        Map<Integer, Integer> colorFreq = new HashMap<>(); // Frequency of each color
+        Map<Integer, Integer> ballColor = new HashMap<>(); // Color of each ball
+        int[] res = new int[n]; // Use an array instead of a List
+
+        for (int i = 0; i < n; ++i) {
+            int ball = queries[i][0];
+            int color = queries[i][1];
+
+            // If the ball was already painted, remove its previous color
+            if (ballColor.containsKey(ball)) {
+                int prevColor = ballColor.get(ball);
+                colorFreq.put(prevColor, colorFreq.get(prevColor) - 1); // Reduce frequency
+                if (colorFreq.get(prevColor) == 0) {
+                    colorFreq.remove(prevColor); // Remove if frequency becomes 0
+                }
             }
-            ball.put(pos, c);
-            int cnt = color.getOrDefault(c, 0) + 1;
-            color.put(c, cnt);
-            if (cnt == 1)
-                distinct++;
-            ans[i] = distinct;
+
+            // Paint the ball with the new color
+            ballColor.put(ball, color);
+            colorFreq.put(color, colorFreq.getOrDefault(color, 0) + 1);
+
+            // Add the number of distinct colors to the result
+            res[i] = colorFreq.size();
         }
-        return ans;
+
+        return res;
     }
 }
