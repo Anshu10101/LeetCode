@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/Anshu10101/LeetCode/tree/master/0001-two-sum) |
 | [0141-linked-list-cycle](https://github.com/Anshu10101/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Anshu10101/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0242-valid-anagram](https://github.com/Anshu10101/LeetCode/tree/master/0242-valid-anagram) |
 | [1364-tuple-with-same-product](https://github.com/Anshu10101/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Anshu10101/LeetCode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2434-design-a-number-container-system](https://github.com/Anshu10101/LeetCode/tree/master/2434-design-a-number-container-system) |
@@ -94,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/Anshu10101/LeetCode/tree/master/0020-valid-parentheses) |
 | [0071-simplify-path](https://github.com/Anshu10101/LeetCode/tree/master/0071-simplify-path) |
+| [0242-valid-anagram](https://github.com/Anshu10101/LeetCode/tree/master/0242-valid-anagram) |
 | [1078-remove-outermost-parentheses](https://github.com/Anshu10101/LeetCode/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Anshu10101/LeetCode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Anshu10101/LeetCode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -128,4 +130,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2434-design-a-number-container-system](https://github.com/Anshu10101/LeetCode/tree/master/2434-design-a-number-container-system) |
+## Sorting
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/Anshu10101/LeetCode/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
