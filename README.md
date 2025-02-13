@@ -82,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1364-tuple-with-same-product](https://github.com/Anshu10101/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Anshu10101/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Anshu10101/LeetCode/tree/master/1927-maximum-ascending-subarray-sum) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Anshu10101/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Anshu10101/LeetCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/Anshu10101/LeetCode/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Anshu10101/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -129,12 +130,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Anshu10101/LeetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Anshu10101/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Anshu10101/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/Anshu10101/LeetCode/tree/master/3447-clear-digits) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [2434-design-a-number-container-system](https://github.com/Anshu10101/LeetCode/tree/master/2434-design-a-number-container-system) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Anshu10101/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 ## Ordered Set
 |  |
 | ------- |
