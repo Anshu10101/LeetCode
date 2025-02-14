@@ -72,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/Anshu10101/LeetCode/tree/master/0002-add-two-numbers) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Anshu10101/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+| [1477-product-of-the-last-k-numbers](https://github.com/Anshu10101/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/Anshu10101/LeetCode/tree/master/3704-count-partitions-with-even-sum-difference) |
 ## Array
 |  |
@@ -80,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/Anshu10101/LeetCode/tree/master/0049-group-anagrams) |
 | [0303-range-sum-query-immutable](https://github.com/Anshu10101/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [1364-tuple-with-same-product](https://github.com/Anshu10101/LeetCode/tree/master/1364-tuple-with-same-product) |
+| [1477-product-of-the-last-k-numbers](https://github.com/Anshu10101/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Anshu10101/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Anshu10101/LeetCode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Anshu10101/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
@@ -91,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/Anshu10101/LeetCode/tree/master/0303-range-sum-query-immutable) |
+| [1477-product-of-the-last-k-numbers](https://github.com/Anshu10101/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/Anshu10101/LeetCode/tree/master/3704-count-partitions-with-even-sum-difference) |
 ## Monotonic Stack
 |  |
@@ -115,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0225-implement-stack-using-queues](https://github.com/Anshu10101/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Anshu10101/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/Anshu10101/LeetCode/tree/master/0303-range-sum-query-immutable) |
+| [1477-product-of-the-last-k-numbers](https://github.com/Anshu10101/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [2434-design-a-number-container-system](https://github.com/Anshu10101/LeetCode/tree/master/2434-design-a-number-container-system) |
 ## Queue
 |  |
@@ -147,4 +151,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0049-group-anagrams](https://github.com/Anshu10101/LeetCode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/Anshu10101/LeetCode/tree/master/0242-valid-anagram) |
+## Data Stream
+|  |
+| ------- |
+| [1477-product-of-the-last-k-numbers](https://github.com/Anshu10101/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 <!---LeetCode Topics End-->
