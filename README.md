@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/Anshu10101/LeetCode/tree/master/0002-add-two-numbers) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Anshu10101/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Anshu10101/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/Anshu10101/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/Anshu10101/LeetCode/tree/master/3704-count-partitions-with-even-sum-difference) |
 ## Array
 |  |
@@ -155,4 +156,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1477-product-of-the-last-k-numbers](https://github.com/Anshu10101/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
+## Backtracking
+|  |
+| ------- |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/Anshu10101/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 <!---LeetCode Topics End-->
