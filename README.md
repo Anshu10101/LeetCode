@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0160-intersection-of-two-linked-lists](https://github.com/Anshu10101/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0242-valid-anagram](https://github.com/Anshu10101/LeetCode/tree/master/0242-valid-anagram) |
 | [0560-subarray-sum-equals-k](https://github.com/Anshu10101/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0782-jewels-and-stones](https://github.com/Anshu10101/LeetCode/tree/master/0782-jewels-and-stones) |
 | [1160-letter-tile-possibilities](https://github.com/Anshu10101/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/Anshu10101/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Anshu10101/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -120,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/Anshu10101/LeetCode/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/Anshu10101/LeetCode/tree/master/0071-simplify-path) |
 | [0242-valid-anagram](https://github.com/Anshu10101/LeetCode/tree/master/0242-valid-anagram) |
+| [0782-jewels-and-stones](https://github.com/Anshu10101/LeetCode/tree/master/0782-jewels-and-stones) |
 | [1078-remove-outermost-parentheses](https://github.com/Anshu10101/LeetCode/tree/master/1078-remove-outermost-parentheses) |
 | [1160-letter-tile-possibilities](https://github.com/Anshu10101/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Anshu10101/LeetCode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
