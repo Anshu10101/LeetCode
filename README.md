@@ -85,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1477-product-of-the-last-k-numbers](https://github.com/Anshu10101/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Anshu10101/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/Anshu10101/LeetCode/tree/master/3704-count-partitions-with-even-sum-difference) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Anshu10101/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Array
 |  |
 | ------- |
@@ -134,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2107-find-unique-binary-string](https://github.com/Anshu10101/LeetCode/tree/master/2107-find-unique-binary-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Anshu10101/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3447-clear-digits](https://github.com/Anshu10101/LeetCode/tree/master/3447-clear-digits) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Anshu10101/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Design
 |  |
 | ------- |
@@ -162,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Anshu10101/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Anshu10101/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/Anshu10101/LeetCode/tree/master/3447-clear-digits) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Anshu10101/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -222,4 +225,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Anshu10101/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+## Combinatorics
+|  |
+| ------- |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Anshu10101/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
+## Number Theory
+|  |
+| ------- |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Anshu10101/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 <!---LeetCode Topics End-->
