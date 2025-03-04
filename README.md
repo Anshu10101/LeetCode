@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Anshu10101/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Anshu10101/LeetCode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2107-find-unique-binary-string](https://github.com/Anshu10101/LeetCode/tree/master/2107-find-unique-binary-string) |
+| [2119-minimum-number-of-operations-to-make-array-continuous](https://github.com/Anshu10101/LeetCode/tree/master/2119-minimum-number-of-operations-to-make-array-continuous) |
 | [2434-design-a-number-container-system](https://github.com/Anshu10101/LeetCode/tree/master/2434-design-a-number-container-system) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Anshu10101/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Stack
@@ -115,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Anshu10101/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Anshu10101/LeetCode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2107-find-unique-binary-string](https://github.com/Anshu10101/LeetCode/tree/master/2107-find-unique-binary-string) |
+| [2119-minimum-number-of-operations-to-make-array-continuous](https://github.com/Anshu10101/LeetCode/tree/master/2119-minimum-number-of-operations-to-make-array-continuous) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Anshu10101/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Anshu10101/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Anshu10101/LeetCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
@@ -267,4 +269,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1170-shortest-common-supersequence](https://github.com/Anshu10101/LeetCode/tree/master/1170-shortest-common-supersequence) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Anshu10101/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Anshu10101/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+## Binary Search
+|  |
+| ------- |
+| [2119-minimum-number-of-operations-to-make-array-continuous](https://github.com/Anshu10101/LeetCode/tree/master/2119-minimum-number-of-operations-to-make-array-continuous) |
+## Sliding Window
+|  |
+| ------- |
+| [2119-minimum-number-of-operations-to-make-array-continuous](https://github.com/Anshu10101/LeetCode/tree/master/2119-minimum-number-of-operations-to-make-array-continuous) |
 <!---LeetCode Topics End-->
