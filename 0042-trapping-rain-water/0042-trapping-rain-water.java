@@ -7,11 +7,11 @@ class Solution {
         while (left <= right) {
             if (height[left] <= height[right]) {
                 if (height[left] >= maxLeft) {
-                    maxLeft = height[left];
+                    maxLeft = height[left]; // storing the max height if we ecounter height greater than the previous height to make sure we are at max height always
                 } else {
-                    res += maxLeft - height[left];
+                    res += maxLeft - height[left]; // counting the water qunatity stored
                 }
-                left++;
+                left++; 
             } else {
                 if (height[right] >= maxRight) {
                     maxRight = height[right];
