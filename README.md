@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0234-palindrome-linked-list](https://github.com/Anshu10101/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/Anshu10101/LeetCode/tree/master/0283-move-zeroes) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/Anshu10101/LeetCode/tree/master/0528-swapping-nodes-in-a-linked-list) |
+| [0696-count-binary-substrings](https://github.com/Anshu10101/LeetCode/tree/master/0696-count-binary-substrings) |
 | [0811-number-of-subarrays-with-bounded-maximum](https://github.com/Anshu10101/LeetCode/tree/master/0811-number-of-subarrays-with-bounded-maximum) |
 | [0908-middle-of-the-linked-list](https://github.com/Anshu10101/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Anshu10101/LeetCode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -145,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/Anshu10101/LeetCode/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/Anshu10101/LeetCode/tree/master/0071-simplify-path) |
 | [0242-valid-anagram](https://github.com/Anshu10101/LeetCode/tree/master/0242-valid-anagram) |
+| [0696-count-binary-substrings](https://github.com/Anshu10101/LeetCode/tree/master/0696-count-binary-substrings) |
 | [0782-jewels-and-stones](https://github.com/Anshu10101/LeetCode/tree/master/0782-jewels-and-stones) |
 | [1078-remove-outermost-parentheses](https://github.com/Anshu10101/LeetCode/tree/master/1078-remove-outermost-parentheses) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Anshu10101/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
