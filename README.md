@@ -91,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Anshu10101/LeetCode/tree/master/0002-add-two-numbers) |
+| [0070-climbing-stairs](https://github.com/Anshu10101/LeetCode/tree/master/0070-climbing-stairs) |
 | [0231-power-of-two](https://github.com/Anshu10101/LeetCode/tree/master/0231-power-of-two) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Anshu10101/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Anshu10101/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
@@ -271,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Anshu10101/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0070-climbing-stairs](https://github.com/Anshu10101/LeetCode/tree/master/0070-climbing-stairs) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Anshu10101/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/Anshu10101/LeetCode/tree/master/1170-shortest-common-supersequence) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Anshu10101/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -287,4 +289,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/Anshu10101/LeetCode/tree/master/0231-power-of-two) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Anshu10101/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
