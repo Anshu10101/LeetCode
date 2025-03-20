@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Anshu10101/LeetCode/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/Anshu10101/LeetCode/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Anshu10101/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0031-next-permutation](https://github.com/Anshu10101/LeetCode/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/Anshu10101/LeetCode/tree/master/0042-trapping-rain-water) |
@@ -104,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/Anshu10101/LeetCode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/Anshu10101/LeetCode/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/Anshu10101/LeetCode/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/Anshu10101/LeetCode/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/Anshu10101/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Anshu10101/LeetCode/tree/master/0049-group-anagrams) |
@@ -204,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Anshu10101/LeetCode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/Anshu10101/LeetCode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/Anshu10101/LeetCode/tree/master/0242-valid-anagram) |
 ## Data Stream
