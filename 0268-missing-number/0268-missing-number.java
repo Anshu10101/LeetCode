@@ -1,34 +1,15 @@
 class Solution {
-    public static void main(String[] args) {
-        int[] arr = {4, 0, 2, 1};
-        System.out.println(missingNumber(arr));
-    }
-
-    public static int missingNumber(int[] arr) {
-        int i = 0;
-        while (i < arr.length) {
-            int correct = arr[i];
-            if (arr[i] < arr.length && arr[i] != arr[correct]) {
-                swap(arr, i , correct);
-            } else {
-                i++;
-            }
+    public int missingNumber(int[] nums) { 
+        // binary search
+        Arrays.sort(nums);
+        int left = 0, right = nums.length, mid = (left + right) / 2;
+        while (left < right) {
+            mid = (left + right) / 2;
+            if (nums[mid] > mid)
+                right = mid;
+            else
+                left = mid + 1;
         }
-
-        // search for first missing number
-        for (int index = 0; index < arr.length; index++) {
-            if (arr[index] != index) {
-                return index;
-            }
-        }
-
-        // case 2
-        return arr.length;
-    }
-
-    static void swap(int[] arr, int first, int second) {
-        int temp = arr[first];
-        arr[first] = arr[second];
-        arr[second] = temp;
+        return left;
     }
 }
