@@ -162,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/Anshu10101/LeetCode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Anshu10101/LeetCode/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/Anshu10101/LeetCode/tree/master/0071-simplify-path) |
+| [0131-palindrome-partitioning](https://github.com/Anshu10101/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0242-valid-anagram](https://github.com/Anshu10101/LeetCode/tree/master/0242-valid-anagram) |
 | [0696-count-binary-substrings](https://github.com/Anshu10101/LeetCode/tree/master/0696-count-binary-substrings) |
 | [0782-jewels-and-stones](https://github.com/Anshu10101/LeetCode/tree/master/0782-jewels-and-stones) |
@@ -230,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0131-palindrome-partitioning](https://github.com/Anshu10101/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [1160-letter-tile-possibilities](https://github.com/Anshu10101/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Anshu10101/LeetCode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Anshu10101/LeetCode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
@@ -293,6 +295,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Anshu10101/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/Anshu10101/LeetCode/tree/master/0070-climbing-stairs) |
+| [0131-palindrome-partitioning](https://github.com/Anshu10101/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Anshu10101/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/Anshu10101/LeetCode/tree/master/1170-shortest-common-supersequence) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Anshu10101/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
