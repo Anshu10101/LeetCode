@@ -14,6 +14,6 @@ class Solution {
             map.get(sortedWord).add(word);
         }
 
-        return new ArrayList<>(map.values());
+        return new ArrayList<>(map.values()); //Returns a Collection view of the values contained in this map.
     }
 }
