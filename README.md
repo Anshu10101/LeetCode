@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/Anshu10101/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Anshu10101/LeetCode/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/Anshu10101/LeetCode/tree/master/0303-range-sum-query-immutable) |
+| [0494-target-sum](https://github.com/Anshu10101/LeetCode/tree/master/0494-target-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Anshu10101/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0811-number-of-subarrays-with-bounded-maximum](https://github.com/Anshu10101/LeetCode/tree/master/0811-number-of-subarrays-with-bounded-maximum) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Anshu10101/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -238,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/Anshu10101/LeetCode/tree/master/0131-palindrome-partitioning) |
+| [0494-target-sum](https://github.com/Anshu10101/LeetCode/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/Anshu10101/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Anshu10101/LeetCode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Anshu10101/LeetCode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
@@ -315,6 +317,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/Anshu10101/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/Anshu10101/LeetCode/tree/master/0070-climbing-stairs) |
 | [0131-palindrome-partitioning](https://github.com/Anshu10101/LeetCode/tree/master/0131-palindrome-partitioning) |
+| [0494-target-sum](https://github.com/Anshu10101/LeetCode/tree/master/0494-target-sum) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Anshu10101/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/Anshu10101/LeetCode/tree/master/1170-shortest-common-supersequence) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Anshu10101/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
