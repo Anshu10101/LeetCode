@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/Anshu10101/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/Anshu10101/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Anshu10101/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0149-max-points-on-a-line](https://github.com/Anshu10101/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Anshu10101/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0242-valid-anagram](https://github.com/Anshu10101/LeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Anshu10101/LeetCode/tree/master/0268-missing-number) |
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/Anshu10101/LeetCode/tree/master/0002-add-two-numbers) |
 | [0069-sqrtx](https://github.com/Anshu10101/LeetCode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/Anshu10101/LeetCode/tree/master/0070-climbing-stairs) |
+| [0149-max-points-on-a-line](https://github.com/Anshu10101/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0231-power-of-two](https://github.com/Anshu10101/LeetCode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Anshu10101/LeetCode/tree/master/0268-missing-number) |
 | [0523-continuous-subarray-sum](https://github.com/Anshu10101/LeetCode/tree/master/0523-continuous-subarray-sum) |
@@ -136,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Anshu10101/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Anshu10101/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0128-longest-consecutive-sequence](https://github.com/Anshu10101/LeetCode/tree/master/0128-longest-consecutive-sequence) |
+| [0149-max-points-on-a-line](https://github.com/Anshu10101/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0209-minimum-size-subarray-sum](https://github.com/Anshu10101/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/Anshu10101/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Anshu10101/LeetCode/tree/master/0283-move-zeroes) |
@@ -378,4 +381,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Anshu10101/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+## Geometry
+|  |
+| ------- |
+| [0149-max-points-on-a-line](https://github.com/Anshu10101/LeetCode/tree/master/0149-max-points-on-a-line) |
 <!---LeetCode Topics End-->
