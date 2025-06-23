@@ -1,107 +1,59 @@
+import java.util.*;
+
 public class Solution {
+    private double[][][][] dp = new double[4096][5][2][4];
+    private int[] maxTime = new int[4096];
 
-    private void findCombinations(List<Integer> elements, int groupSize, int start,
-            List<Integer> current, List<List<Integer>> result) {
-        if (current.size() == groupSize) {
-            result.add(new ArrayList<>(current));
-            return;
-        }
+    private double dfs(int mask, int st, int across, int singles, int k, int m, int[] time, double[] mul) {
+        if (mask == 0)
+            return 0;
 
-        if (elements.size() - start < groupSize - current.size())
-            return;
+        if (singles > 3)
+            return Double.MAX_VALUE;
 
-        for (int i = start; i < elements.size(); i++) {
-            current.add(elements.get(i));
-            findCombinations(elements, groupSize, i + 1, current, result);
-            current.remove(current.size() - 1);
-        }
-    }
+        if (dp[mask][st][across][singles] == 0) {
+            double res = Double.MAX_VALUE;
 
-    public double minTime(int n, int k, int m, int[] time, double[] mul) {
-        class State {
-            double totalTime;
-            int mask;
-            int stage;
-            int location;
-
-            State(double t, int m, int s, int l) {
-                totalTime = t;
-                mask = m;
-                stage = s;
-                location = l;
-            }
-        }
-
-        if (k == 1 && n > 1)
-            return -1.0;
-
-        int numMasks = 1 << n;
-        double[][][] dist = new double[numMasks][m][2];
-        for (double[][] stage : dist)
-            for (double[] loc : stage)
-                Arrays.fill(loc, Double.MAX_VALUE);
-
-        PriorityQueue<State> pq = new PriorityQueue<>(Comparator.comparingDouble(s -> s.totalTime));
-        dist[0][0][0] = 0.0;
-        pq.offer(new State(0.0, 0, 0, 0));
-
-        int finalMask = numMasks - 1;
-
-        while (!pq.isEmpty()) {
-            State curr = pq.poll();
-
-            if (curr.totalTime > dist[curr.mask][curr.stage][curr.location] + 1e-9)
-                continue;
-
-            if (curr.mask == finalMask && curr.location == 1)
-                return Math.round(curr.totalTime * 100000.0) / 100000.0;
-
-            if (curr.location == 0) {
-                List<Integer> basePeople = new ArrayList<>();
-                for (int i = 0; i < n; i++) {
-                    if ((curr.mask & (1 << i)) == 0)
-                        basePeople.add(i);
-                }
-
-                for (int sz = 1; sz <= Math.min(k, basePeople.size()); sz++) {
-                    List<List<Integer>> combinations = new ArrayList<>();
-                    findCombinations(basePeople, sz, 0, new ArrayList<>(), combinations);
-
-                    for (List<Integer> group : combinations) {
-                        int maxTime = 0;
-                        for (int i : group)
-                            maxTime = Math.max(maxTime, time[i]);
-
-                        double crossTime = maxTime * mul[curr.stage];
-                        double newTime = curr.totalTime + crossTime;
-                        int nextStage = (curr.stage + (int) Math.floor(crossTime)) % m;
-
-                        int nextMask = curr.mask;
-                        for (int i : group)
-                            nextMask |= (1 << i);
-
-                        if (newTime < dist[nextMask][nextStage][1]) {
-                            dist[nextMask][nextStage][1] = newTime;
-                            pq.offer(new State(newTime, nextMask, nextStage, 1));
+            if (across == 0) {
+                for (int i = 1; i <= mask; i++) {
+                    if ((i & mask) == i && Integer.bitCount(i) <= k) {
+                        if (maxTime[i] == 0) {
+                            for (int j = 0; j < time.length; j++) {
+                                if (((1 << j) & i) != 0) {
+                                    maxTime[i] = Math.max(maxTime[i], time[j]);
+                                }
+                            }
                         }
+
+                        double took = mul[st] * maxTime[i];
+                        int nextSt = (st + (int) Math.floor(took)) % m;
+
+                        res = Math.min(res, took + dfs(mask - i, nextSt, 1,
+                                singles + (Integer.bitCount(i) == 1 ? 1 : 0), k, m, time, mul));
                     }
                 }
             } else {
-                for (int i = 0; i < n; i++) {
-                    if ((curr.mask & (1 << i)) != 0) {
-                        double retTime = time[i] * mul[curr.stage];
-                        double totalTime = curr.totalTime + retTime;
-                        int nextStage = (curr.stage + (int) Math.floor(retTime)) % m;
-                        int nextMask = curr.mask & ~(1 << i);
+                for (int i = 0; i < time.length; i++) {
+                    if (((1 << i) & mask) == 0) {
+                        double took = mul[st] * time[i];
+                        int nextSt = (st + (int) Math.floor(took)) % m;
 
-                        if (totalTime < dist[nextMask][nextStage][0]) {
-                            dist[nextMask][nextStage][0] = totalTime;
-                            pq.offer(new State(totalTime, nextMask, nextStage, 0));
-                        }
+                        res = Math.min(res, took + dfs(mask + (1 << i), nextSt, 0, singles, k, m, time, mul));
                     }
                 }
             }
+
+            dp[mask][st][across][singles] = res;
         }
-        return -1.0;
+
+        return dp[mask][st][across][singles];
+    }
+
+    public double minTime(int n, int k, int m, int[] time, double[] mul) {
+        if (k == 1 && n > 1)
+            return -1;
+
+        int fullMask = (1 << n) - 1;
+        return dfs(fullMask, 0, 0, 0, k, m, time, mul);
     }
 }
