@@ -14,7 +14,7 @@ class Solution {
             return true; // 
         }
 
-        //Find the middle of the list using slow & fast pointers
+        //Find the "Middle of the list" using slow & fast pointers
         ListNode slow = head;
         ListNode fast = head;
         while (fast != null && fast.next != null) {
@@ -25,7 +25,7 @@ class Solution {
         //Reversing the second half of the list
         ListNode secondHalfHead = reverseList(slow);
 
-        // Compare the two halves
+        // "Compare the two halves of LL"
         ListNode firstHalf = head;
         ListNode secondHalf = secondHalfHead;
         boolean isPalindrome = true;
@@ -44,7 +44,7 @@ class Solution {
         return isPalindrome;
     }
 
-    // Helper method to reverse a linked list
+    // Helper method to "Reverse a linked list"
     private ListNode reverseList(ListNode head) {
         ListNode prev = null;
         ListNode current = head;
