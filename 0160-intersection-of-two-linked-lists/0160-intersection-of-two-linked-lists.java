@@ -22,6 +22,6 @@ public class Solution {
             temp2 = (temp2 == null) ? firstHead : temp2.next;
         }
 
-        return temp1;
+        return temp2;
     }
 }
