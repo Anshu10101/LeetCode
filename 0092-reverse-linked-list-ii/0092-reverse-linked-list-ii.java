@@ -10,39 +10,35 @@
  */
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
-        if (left == right) {
+        if (head == null || left == right)
             return head;
+
+        // Step 1: Create dummy node to handle edge cases easily
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+
+        // Step 2: Move `leftPrev` to one node before position `left`
+        ListNode leftPrev = dummy;
+        for (int i = 1; i < left; i++) {
+            leftPrev = leftPrev.next;
         }
 
-        // skip the first left-1 nodes
-        ListNode current = head;
+        // Start of the reversal segment
+        ListNode current = leftPrev.next;
+
+        // Step 3: Reverse the sublist from left to right
         ListNode prev = null;
-        for (int i = 0; current != null && i < left - 1; i++) {
-            prev = current;
-            current = current.next;
-        }
-
-        ListNode last = prev;
-        ListNode newEnd = current;
-
-        // reverse between left and right
-        ListNode next = current.next;
-        for (int i = 0; current != null && i < right - left + 1; i++) {
+        for (int i = 0; i < right - left + 1; i++) {
+            ListNode nextNode = current.next;
             current.next = prev;
             prev = current;
-            current = next;
-            if (next != null) {
-                next = next.next;
-            }
+            current = nextNode;
         }
 
-        if (last != null) {
-            last.next = prev;
-        } else {
-            head = prev;
-        }
+        // Step 4: Reconnect the reversed part with the rest of the list
+        leftPrev.next.next = current; // Connect tail of reversed sublist to node after `right`
+        leftPrev.next = prev; // Connect node before `left` to the new head of reversed sublist
 
-        newEnd.next = current;
-        return head;
+        return dummy.next; // Return the new head (may have changed if left == 1)
     }
 }
