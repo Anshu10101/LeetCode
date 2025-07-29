@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/Anshu10101/LeetCode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Anshu10101/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/Anshu10101/LeetCode/tree/master/0021-merge-two-sorted-lists) |
+| [0023-merge-k-sorted-lists](https://github.com/Anshu10101/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/Anshu10101/LeetCode/tree/master/0024-swap-nodes-in-pairs) |
 | [0061-rotate-list](https://github.com/Anshu10101/LeetCode/tree/master/0061-rotate-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/Anshu10101/LeetCode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
@@ -262,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Anshu10101/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [2434-design-a-number-container-system](https://github.com/Anshu10101/LeetCode/tree/master/2434-design-a-number-container-system) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Anshu10101/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 ## Ordered Set
@@ -346,6 +348,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Anshu10101/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Anshu10101/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Anshu10101/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/Anshu10101/LeetCode/tree/master/0148-sort-list) |
@@ -410,5 +413,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Merge Sort
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Anshu10101/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/Anshu10101/LeetCode/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
