@@ -1,5 +1,5 @@
 class Solution {
-    // Function to calculate LCS
+    //LCS code
     private int LCS(String a, String b, int m, int n) {
         int[][] dp = new int[m + 1][n + 1];
 
@@ -16,7 +16,7 @@ class Solution {
         return dp[m][n];
     }
 
-    // Function to compute Longest Palindromic Subsequence
+    //LPS code
     public int longestPalindromeSubseq(String s) {
         StringBuilder sb = new StringBuilder(s);
         sb.reverse();
