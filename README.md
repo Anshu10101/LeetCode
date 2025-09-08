@@ -172,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Anshu10101/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Anshu10101/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0966-binary-subarrays-with-sum](https://github.com/Anshu10101/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
+| [1025-minimum-cost-for-tickets](https://github.com/Anshu10101/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1044-find-common-characters](https://github.com/Anshu10101/LeetCode/tree/master/1044-find-common-characters) |
 | [1364-tuple-with-same-product](https://github.com/Anshu10101/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Anshu10101/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
@@ -393,6 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0518-coin-change-ii](https://github.com/Anshu10101/LeetCode/tree/master/0518-coin-change-ii) |
 | [0583-delete-operation-for-two-strings](https://github.com/Anshu10101/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Anshu10101/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [1025-minimum-cost-for-tickets](https://github.com/Anshu10101/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1170-shortest-common-supersequence](https://github.com/Anshu10101/LeetCode/tree/master/1170-shortest-common-supersequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Anshu10101/LeetCode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Anshu10101/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
