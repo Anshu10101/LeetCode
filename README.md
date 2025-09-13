@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Anshu10101/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/Anshu10101/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Anshu10101/LeetCode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Anshu10101/LeetCode/tree/master/0016-3sum-closest) |
@@ -214,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Anshu10101/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/Anshu10101/LeetCode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Anshu10101/LeetCode/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/Anshu10101/LeetCode/tree/master/0071-simplify-path) |
@@ -388,6 +390,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Anshu10101/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/Anshu10101/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/Anshu10101/LeetCode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Anshu10101/LeetCode/tree/master/0072-edit-distance) |
