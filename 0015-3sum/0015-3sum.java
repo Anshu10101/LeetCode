@@ -23,7 +23,7 @@ class Solution {
                     j++;
 
                     while (nums[j] == nums[j-1] && j < k) {
-                        j++;
+                        j++; //This line ensures that each unique triplet is added only once, even if the array contains duplicate numbers.
                     }
                 }
             }
