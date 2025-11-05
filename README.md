@@ -175,6 +175,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/Anshu10101/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/Anshu10101/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/Anshu10101/LeetCode/tree/master/0322-coin-change) |
+| [0485-max-consecutive-ones](https://github.com/Anshu10101/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Anshu10101/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Anshu10101/LeetCode/tree/master/0518-coin-change-ii) |
 | [0523-continuous-subarray-sum](https://github.com/Anshu10101/LeetCode/tree/master/0523-continuous-subarray-sum) |
