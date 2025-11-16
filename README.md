@@ -182,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0525-contiguous-array](https://github.com/Anshu10101/LeetCode/tree/master/0525-contiguous-array) |
 | [0554-brick-wall](https://github.com/Anshu10101/LeetCode/tree/master/0554-brick-wall) |
 | [0560-subarray-sum-equals-k](https://github.com/Anshu10101/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0792-binary-search](https://github.com/Anshu10101/LeetCode/tree/master/0792-binary-search) |
 | [0811-number-of-subarrays-with-bounded-maximum](https://github.com/Anshu10101/LeetCode/tree/master/0811-number-of-subarrays-with-bounded-maximum) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Anshu10101/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Anshu10101/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -440,6 +441,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/Anshu10101/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/Anshu10101/LeetCode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Anshu10101/LeetCode/tree/master/0300-longest-increasing-subsequence) |
+| [0792-binary-search](https://github.com/Anshu10101/LeetCode/tree/master/0792-binary-search) |
 | [2119-minimum-number-of-operations-to-make-array-continuous](https://github.com/Anshu10101/LeetCode/tree/master/2119-minimum-number-of-operations-to-make-array-continuous) |
 ## Sliding Window
 |  |
