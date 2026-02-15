@@ -141,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0149-max-points-on-a-line](https://github.com/Anshu10101/LeetCode/tree/master/0149-max-points-on-a-line) |
 | [0231-power-of-two](https://github.com/Anshu10101/LeetCode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Anshu10101/LeetCode/tree/master/0268-missing-number) |
+| [0367-valid-perfect-square](https://github.com/Anshu10101/LeetCode/tree/master/0367-valid-perfect-square) |
 | [0523-continuous-subarray-sum](https://github.com/Anshu10101/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [1013-fibonacci-number](https://github.com/Anshu10101/LeetCode/tree/master/1013-fibonacci-number) |
 | [1086-divisor-game](https://github.com/Anshu10101/LeetCode/tree/master/1086-divisor-game) |
@@ -458,6 +459,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/Anshu10101/LeetCode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Anshu10101/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/Anshu10101/LeetCode/tree/master/0349-intersection-of-two-arrays) |
+| [0367-valid-perfect-square](https://github.com/Anshu10101/LeetCode/tree/master/0367-valid-perfect-square) |
 | [0792-binary-search](https://github.com/Anshu10101/LeetCode/tree/master/0792-binary-search) |
 | [2119-minimum-number-of-operations-to-make-array-continuous](https://github.com/Anshu10101/LeetCode/tree/master/2119-minimum-number-of-operations-to-make-array-continuous) |
 ## Sliding Window
