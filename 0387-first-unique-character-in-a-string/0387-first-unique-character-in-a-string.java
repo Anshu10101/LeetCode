@@ -1,22 +1,17 @@
-import java.util.HashMap;
-import java.util.Map;
-
 class Solution {
     public int firstUniqChar(String s) {
-        Map<Character, Integer> freqMap = new HashMap<>();
-        int uniqueIdx = 0;
+        Map<Character, Integer> freq = new HashMap<>();
 
-        // Count frequencies
+        for (char c : s.toCharArray()) {
+            freq.put(c, freq.getOrDefault(c, 0) + 1);
+        }
+
         for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-            freqMap.put(ch, freqMap.getOrDefault(ch, 0) + 1);
+            if (freq.get(s.charAt(i)) == 1) {
+                return i;
+            }
         }
 
-        // Find the first unique character
-        while (uniqueIdx < s.length() && freqMap.get(s.charAt(uniqueIdx)) > 1) {
-            uniqueIdx++;
-        }
-
-        return (uniqueIdx == s.length()) ? -1 : uniqueIdx;
+        return -1;        
     }
 }
