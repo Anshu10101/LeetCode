@@ -246,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/Anshu10101/LeetCode/tree/master/0020-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/Anshu10101/LeetCode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/Anshu10101/LeetCode/tree/master/0049-group-anagrams) |
+| [0058-length-of-last-word](https://github.com/Anshu10101/LeetCode/tree/master/0058-length-of-last-word) |
 | [0071-simplify-path](https://github.com/Anshu10101/LeetCode/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/Anshu10101/LeetCode/tree/master/0072-edit-distance) |
 | [0125-valid-palindrome](https://github.com/Anshu10101/LeetCode/tree/master/0125-valid-palindrome) |
