@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0148-sort-list](https://github.com/Anshu10101/LeetCode/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/Anshu10101/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Anshu10101/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Anshu10101/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0234-palindrome-linked-list](https://github.com/Anshu10101/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/Anshu10101/LeetCode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/Anshu10101/LeetCode/tree/master/0344-reverse-string) |
@@ -181,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/Anshu10101/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/Anshu10101/LeetCode/tree/master/0136-single-number) |
 | [0149-max-points-on-a-line](https://github.com/Anshu10101/LeetCode/tree/master/0149-max-points-on-a-line) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Anshu10101/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Anshu10101/LeetCode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/Anshu10101/LeetCode/tree/master/0198-house-robber) |
 | [0209-minimum-size-subarray-sum](https://github.com/Anshu10101/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
@@ -472,6 +474,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Anshu10101/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0069-sqrtx](https://github.com/Anshu10101/LeetCode/tree/master/0069-sqrtx) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Anshu10101/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Anshu10101/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/Anshu10101/LeetCode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Anshu10101/LeetCode/tree/master/0300-longest-increasing-subsequence) |
