@@ -1,18 +1,13 @@
 class Solution {
     public void moveZeroes(int[] nums) {
-        if (nums == null || nums.length == 0)
-            return;
-
-        int numOfZeroes = 0;
+        int j = 0; // Pointer to place the next non-zero element
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == 0) {
-                numOfZeroes++;
-            } else if (numOfZeroes > 0) {
-                int x = nums[i];
-                nums[i] = 0;
-                nums[i - numOfZeroes] = x; // we shift non-zero elements left in one pass.
-                                           // The zeros are naturally pushed to the right because every time
-                                           // a swap happens, a zero gets written to nums[i].
+            if (nums[i] != 0) {
+                // Swap current element with the element at index j 
+                int temp = nums[i];
+                nums[i] = nums[j];
+                nums[j] = temp;
+                j++;   // Move j to the next index for placing non-zero
             }
         }
     }
