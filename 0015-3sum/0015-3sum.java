@@ -4,8 +4,8 @@ class Solution {
         Arrays.sort(nums);
 
         for (int i = 0; i < nums.length; i++) {
-            if (i > 0 && nums[i] == nums[i-1]) {
-                continue;
+            if (i > 0 && nums[i] == nums[i-1]) { 
+                continue; // basically, agar just next element same ho toh loop continue rkho and skip this element and look for the next distinct number since i!=j!=k
             }
             
             int j = i + 1;
