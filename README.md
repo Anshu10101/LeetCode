@@ -180,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Anshu10101/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Anshu10101/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0120-triangle](https://github.com/Anshu10101/LeetCode/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Anshu10101/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Anshu10101/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/Anshu10101/LeetCode/tree/master/0136-single-number) |
 | [0149-max-points-on-a-line](https://github.com/Anshu10101/LeetCode/tree/master/0149-max-points-on-a-line) |
@@ -452,6 +453,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/Anshu10101/LeetCode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Anshu10101/LeetCode/tree/master/0072-edit-distance) |
 | [0120-triangle](https://github.com/Anshu10101/LeetCode/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Anshu10101/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/Anshu10101/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/Anshu10101/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Anshu10101/LeetCode/tree/master/0213-house-robber-ii) |
